@@ -15,14 +15,14 @@ if vim.o.background == "dark" then
      mono_2        = {"#828997", 102, "mono_2"}  -- hsl(@syntax-hue,  9%, 55%);
      mono_3        = {"#5c6370",  59, "mono_3"}  -- hsl(@syntax-hue, 10%, 40%);
      mono_4        = {"#4b5263", 240, "mono_4"}  --
-     hue_1         = {"#56b6c2", 247, "hue_1"}   -- hsl(187, 47%, 55%);
-     hue_2         = {"#1566ff",  75, "hue_2"}   -- hsl(207, 82%, 66%);
+     hue_1         = {"#16b6c2", 247, "hue_1"}   -- hsl(187, 47%, 55%);
+     hue_2         = {"#77ffff",  75, "hue_2"}   -- hsl(207, 82%, 66%);
      hue_3         = {"#e5c07b", 176, "hue_3"}   -- hsl(286, 60%, 67%);
      hue_4         = {"#98ff79", 114, "hue_4"}   -- hsl( 95, 38%, 62%);
      hue_5         = {"#e06c75", 168, "hue_5"}   -- hsl(355, 65%, 65%);
      hue_5_2       = {"#be5046", 131, "hue_5_2"} -- hsl(  5, 48%, 51%);
      hue_6         = {"#8723df", 247, "hue_6"}   -- hsl( 29, 54%, 61%);
-     hue_6_2       = {"#7722ff", 180, "hue_6_2"} -- hsl( 39, 67%, 69%);
+     hue_6_2       = {"#bb00ff", 180, "hue_6_2"} -- hsl( 39, 67%, 69%);
      syntax_bg     = {"#282c34",  17, "syntax_bg"}     -- hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
      syntax_gutter = {"#636d83", 241, "syntax_gutter"} -- darken(@syntax-fg, 26%);
      syntax_cursor = {"#2c323c",  23, "syntax_cursor"} 
