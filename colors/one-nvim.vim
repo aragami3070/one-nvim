@@ -53,6 +53,7 @@ else
      mono_2        = {"#696c77",  60, "mono_2"}        -- hsl(@syntax-hue, 6%, 44%);
      mono_3        = {"#a0a1a7", 247, "mono_3"}        -- hsl(@syntax-hue, 4%, 64%);
      mono_4        = {"#c2c2c3", 251, "mono_4"}        --
+     variable      = mono_3
      hue_1         = {"#0184bc",  31, "hue_1"}         -- hsl(198, 99%, 37%);
      hue_2         = {"#4078f2",  69, "hue_2"}         -- hsl(221, 87%, 60%);
      hue_3         = {"#a626a4", 243, "hue_3"}         -- hsl(301, 63%, 40%);
@@ -174,7 +175,10 @@ local highlight_groups = {
      TooLong      = { fg = hue_5 },
      WildMenu     = { fg = mono_1, bg = mono_3 },
      SignColumn   = { fg = none, bg = syntax_bg },
-     Special      = { fg = hue_2 },
+
+    NvimTreeRootFolder = {fg = hue_6},
+    NvimTreeImageFile = {fg = hue_6},
+    NvimTreeSpecialFile = {fg = hue_6},
 
 ---------------------------
 -- Vim Help Highlighting --
@@ -224,6 +228,8 @@ local highlight_groups = {
      Ignore         = { fg = none},
      Error          = { fg = hue_5, bg = mono_3,   style = 'bold'},
      Todo           = { fg = hue_3, bg = mono_3 },
+     NvimLightGrey2 = { fg = hue_2},
+
 
 -----------------------
 -- Diff Highlighting --
@@ -501,6 +507,7 @@ local highlight_groups = {
      purescriptOperator    = { fg = mono_1 },
 
 -- Python
+     pythonAttribute       = { fg = hue_3 },
      pythonImport          = { fg = hue_3 },
      pythonBuiltin         = { fg = hue_1 },
      pythonStatement       = { fg = hue_3 },
@@ -708,7 +715,6 @@ local terminal_ansi_colors = {
     [14] = term_cyan,
     [15] = term_white
 }
-
 
 require(vim.g.colors_name)(highlight_group_normal, highlight_groups, terminal_ansi_colors)
 

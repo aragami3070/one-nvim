@@ -11,8 +11,7 @@ local _TYPE_TABLE  = 'table'
 
 -- Determine which set of colors to use.
 local _USE_HEX = go.termguicolors
-local _USE_256 = tonumber(go.t_Co) > 255
-	or string.find(vim.env.TERM, '256')
+local _USE_256 = false
 
 --[[ HELPER FUNCTIONS ]]
 
