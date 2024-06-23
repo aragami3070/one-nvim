@@ -21,8 +21,8 @@ if vim.o.background == "dark" then
      hue_4         = {"#98ff79", 114, "hue_4"}   -- hsl( 95, 38%, 62%);
      hue_5         = {"#ff3456", 168, "hue_5"}   -- hsl(355, 65%, 65%);
      hue_5_2       = {"#be5046", 131, "hue_5_2"} -- hsl(  5, 48%, 51%);
-     hue_6         = {"#8723df", 247, "hue_6"}   -- hsl( 29, 54%, 61%);
-     hue_6_2       = {"#bb00ff", 180, "hue_6_2"} -- hsl( 39, 67%, 69%);
+     hue_6         = {"#bb00df", 247, "hue_6"}   -- hsl( 29, 54%, 61%);
+     hue_6_2       = {"#ff80ff", 180, "hue_6_2"} -- hsl( 39, 67%, 69%);
      syntax_bg     = {"#282c34",  17, "syntax_bg"}     -- hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
      syntax_gutter = {"#636d83", 241, "syntax_gutter"} -- darken(@syntax-fg, 26%);
      syntax_cursor = {"#2c323c",  23, "syntax_cursor"} 
@@ -256,7 +256,7 @@ local highlight_groups = {
      cInclude           = { fg = hue_3 },
      cPreCondit         = { fg = hue_3 },
      cPreConditMatch    = { fg = hue_3 },
-     cType              = { fg = hue_3 },
+     cType              = { fg = hue_1 },
      cStorageClass      = { fg = hue_3 },
      cStructure         = { fg = hue_3 },
      cOperator          = { fg = hue_3 },
@@ -266,7 +266,7 @@ local highlight_groups = {
      cSpecial           = { fg = hue_1 },
      cSpecialCharacter  = { fg = hue_1 },
      cString            = { fg = hue_4 },
-     cppType            = { fg = hue_3 },
+     cppType            = { fg = hue_1 },
      cppStorageClass    = { fg = hue_3 },
      cppStructure       = { fg = hue_3 },
      cppModifier        = { fg = hue_3 },
