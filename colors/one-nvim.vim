@@ -201,7 +201,7 @@ local highlight_groups = {
      Boolean        = { fg = hue_6, bg = none},
      Float          = { fg = hue_6, bg = none},
      Identifier     = { fg = hue_5, bg = none},
-     Function       = { fg = hue_2, bg = none},
+     Function       = { fg = hue_1, bg = none},
      Statement      = { fg = hue_3, bg = none},
      Conditional    = { fg = hue_3, bg = none},
      Repeat         = { fg = hue_3, bg = none},
