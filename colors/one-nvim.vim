@@ -357,6 +357,7 @@ local highlight_groups = {
      gitcommitDiscardedArrow = 'gitcommitDiscardedFile',
      gitcommitSelectedArrow  = 'gitcommitSelectedFile',
      gitcommitUnmergedArrow  = 'gitcommitUnmergedFile',
+     NeoTreeGitIgnored       = { fg = 'hue_6_2'},
      SignifySignAdd          = { fg = syntax_color_added },
      SignifySignChange       = { fg = syntax_color_modified },
      SignifySignDelete       = { fg = syntax_color_removed },
