@@ -225,7 +225,7 @@ local highlight_groups = {
      SpecialComment = { fg = none},
      Debug          = { fg = none},
      Underlined     = { fg = none, style = 'underline' },
-     Ignore         = { fg = none},
+     Ignore         = { fg = hue_6_2},
      Error          = { fg = hue_5, bg = mono_3,   style = 'bold'},
      Todo           = { fg = hue_3, bg = mono_3 },
      NvimLightGrey2 = { fg = hue_2},
