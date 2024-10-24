@@ -148,7 +148,7 @@ local highlight_groups = {
      Folded       = { fg = mono_3, bg = syntax_bg },
      FoldColumn   = { fg = mono_3, bg = syntax_cursor },
      IncSearch    = { fg = hue_6, bg = mono_3 },
-     LineNr       = { fg = hue_5_2 },
+     LineNr       = { fg = hue_2 },
      CursorLineNr = { fg = hue_5, bg = syntax_cursor },
      MatchParen   = { fg = hue_5, bg = syntax_cursor, style = 'underline,bold' },
      Italic       = { fg = none, style = 'italic'},
