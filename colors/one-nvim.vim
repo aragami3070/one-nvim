@@ -17,7 +17,7 @@ if vim.o.background == "dark" then
      mono_4        = {"#4b5263", 240, "mono_4"}  --
      hue_1         = {"#11aeff", 247, "hue_1"}   -- hsl(187, 47%, 55%);
      hue_2         = {"#77efff",  75, "hue_2"}   -- hsl(207, 82%, 66%);
-     hue_3         = {"#FFA500", 176, "hue_3"}   -- hsl(286, 60%, 67%);
+     hue_3         = {"#e5c07b", 176, "hue_3"}   -- hsl(286, 60%, 67%);
      hue_4         = {"#98ff79", 114, "hue_4"}   -- hsl( 95, 38%, 62%);
      hue_5         = {"#ff3456", 168, "hue_5"}   -- hsl(355, 65%, 65%);
      hue_5_2       = {"#be5046", 131, "hue_5_2"} -- hsl(  5, 48%, 51%);
@@ -174,7 +174,7 @@ local highlight_groups = {
      WarningMsg   = { fg = hue_5 },
      TooLong      = { fg = hue_5 },
      WildMenu     = { fg = mono_1, bg = mono_3 },
-     SignColumn   = { fg = hue_5, bg = syntax_bg },
+     SignColumn   = { fg = none, bg = syntax_bg },
 
     NvimTreeRootFolder = {fg = hue_6},
     NvimTreeImageFile = {fg = hue_6},
