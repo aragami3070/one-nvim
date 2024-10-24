@@ -174,7 +174,7 @@ local highlight_groups = {
      WarningMsg   = { fg = hue_5 },
      TooLong      = { fg = hue_5 },
      WildMenu     = { fg = mono_1, bg = mono_3 },
-     SignColumn   = { fg = none, bg = syntax_bg },
+     SignColumn   = { fg = hue_5, bg = syntax_bg },
 
     NvimTreeRootFolder = {fg = hue_6},
     NvimTreeImageFile = {fg = hue_6},
