@@ -91,9 +91,9 @@ syntax_color_renamed  = {"#33a0ff", 75, "syntax_color_renamed"}  -- hsl(208, 100
 --]]
 Red  = {"#e88388", 174, "Red"}
 DarkRed  = {"#e06c75", 168, "DarkRed"}
-Blue  = {"#61afef", 75, "Blue"}
+Blue  = {"#66CDAA", 75, "Blue"}
 DarkBlue  = {"#528bff", 69, "DarkBlue"}
-Green  = {"#98c379", 114, "Green"}
+Green  = {"#4682B4", 114, "Green"}
 DarkGreen  = {"#50a14f", 242, "DarkGreen"}
 Orange  = {"#d19a66", 247, "Orange"}
 DarkOrange  = {"#c18401", 232, "DarkOrange"}
