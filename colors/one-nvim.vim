@@ -276,6 +276,16 @@ local highlight_groups = {
      cppConstant        = { fg = hue_5 },
      cCppString         = { fg = hue_4 },
 
+	-- C#
+     csType            = { fg = hue_1 },
+     csStorageClass    = { fg = hue_3 },
+     csStructure       = { fg = hue_3 },
+     csModifier        = { fg = hue_3 },
+     csOperator        = { fg = hue_3 },
+     csAccess          = { fg = hue_3 },
+     csStatement       = { fg = hue_3 },
+     csConstant        = { fg = hue_5 },
+     csString         = { fg = hue_4 },
 -- Cucumber
      cucumberGiven           = { fg = hue_2 },
      cucumberWhen            = { fg = hue_2 },
